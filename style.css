@@ -5,6 +5,7 @@
 body
 {
 	display: flex;
+	flex-direction: row-reverse;
 	margin: 0;
 }
 /*première colonne*/
@@ -178,14 +179,33 @@ hr
 	font-size: 1.2em;
 	text-transform: uppercase;
 }
+#formation i
+{
+	height: 8px;
+	width: 8px;
+	border-radius: 50px;
+	border-width:1px;
+	border-style: solid;
+	border-color: black;
+	font-size: 0.5em;
+}
 /*Deuxième bloc--Experiences*/
 #experiences
 {
 	display: flex;
 	flex-direction: column;
-	
 	align-items: flex-start;
 	
+}
+#experiences i
+{
+	height: 8px;
+	width: 8px;
+	border-radius: 50px;
+	border-width:1px;
+	border-style: solid;
+	border-color: black;
+	font-size: 0.5em;
 }
 /*Troisième bloc--Recommandations*/
 #recommandations
@@ -212,7 +232,7 @@ hr
 {
 	body
 {
-	flex-direction: column;
+	flex-direction: column-reverse;
 	margin: 0;
 }
 #colonne1, #colonne2
