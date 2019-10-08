@@ -223,22 +223,18 @@ hr
 	margin-left: 25px;
 }
 /*RESPONSIVE*/
-@media screen and (max-width: 5§8px)
+@media screen and (max-width: 568px)
 {
 	body
 {
 	flex-direction: column-reverse;
 	margin: 0;
-	max-width: 100%;
+	max-width: 93%;
 }
 #columnright, #columnleft
 {
 	width: 100%;
 	padding: 15px;
 }
-#recommandations
-{
-	width: 80%;
-	max-width: 80%;
-}
+
 }
