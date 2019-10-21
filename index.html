@@ -5,19 +5,19 @@
 		CV de Romane Flahaut
 		</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="SOUTENANCE/octest/style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://kit.fontawesome.com/dd28230c11.js"></script>
 		<link rel="stylesheet" href="https://use.typekit.net/shk4ufs.css">
 	</head>
 	<body>
-<!--debut deuxième colonne-->
+		<!--debut deuxième colonne-->
 		<section id="columnright">
 			<div id="prenom">
 				<h1><big>Romane</big> Flahaut</h1>
 				<h2>Développeuse web freelance</h2>
 				<hr id="petitTrait">
-			</div>`
-<!--début formation-->
+			</div>
+	<!--début formation-->
 			<article>
 				<div class="titre">
 					<i class="fas fa-graduation-cap"></i>
@@ -55,7 +55,7 @@
 				</div>
 			</article>
 		<!--expériences!-->
-			<article>
+			<article id="exp">
 				<div class="titre">
 					<i class="fas fa-briefcase"></i>
 					<h4>Expériences</h4>
@@ -105,40 +105,38 @@
 						</div>
 					</div>
 				</div>
-			</article>
+			</article>	
 		<!--recommandations!-->
-			<article>
-				<div class="bloc">
-					<div class="titre">
-						<i class="fas fa-pencil-alt"></i>
-						<h4>Recommandations</h4>
+			<article class="bloc">
+				<div class="titre">
+					<i class="fas fa-pencil-alt"></i>
+					<h4>Recommandations</h4>
+				</div>
+				<hr>
+				<div id="recommandations">
+					<div class="reco1">
+						<p><strong>Jean-Jacques Bernigaud</strong>
+						<br>Directeur de la MJC Grieu
+						<br>02 35 71 94 76
+						<br>jj.bernigaud@mjcgrieu.org
+						</p>
 					</div>
-					<hr>
-					<div id="recommandations">
-						<div class="reco1">
-							<p><strong>Jean-Jacques Bernigaud</strong>
-							<br>Directeur de la MJC Grieu
-							<br>02 35 71 94 76
-							<br>jj.bernigaud@mjcgrieu.org
-							</p>
-						</div>
-						<div class="reco2">
-							<p><strong>Frédéric Victor</strong>
-							<br>Responsable d’agence Ivalis Rouen
-							<br>Téléphone
-							<br>frederic.victor@ivalisgroup.fr
-							</p>
-						</div>
+					<div class="reco2">
+						<p><strong>Frédéric Victor</strong>
+						<br>Responsable d’agence Ivalis Rouen
+						<br>Téléphone
+						<br>frederic.victor@ivalisgroup.fr
+						</p>
 					</div>
 				</div>
 			</article>
 		</section>
 		<!--premièrecolonne-->
 		<section id="columnleft">
-			<div id="cercle">
-				<img src="SOUTENANCE/octest/img/romane.jpg" alt="photo de Romane Flahaut">
-			</div>
-			<aside>
+			<article class="contact">
+				<div id="cercle">
+					<img src="img/romane.jpg" alt="photo de Romane Flahaut">
+				</div>
 				<h3>Contact</h3>
 				<div id="contact">
 					<p>
@@ -162,6 +160,8 @@
 					<br>@flaharo
 					</p>
 				</div>
+			</article>
+			<article class="about">
 				<h3>à propos de moi</h3>
 				<div id="apropos">
 					<p>Après une licence de lettres modernes, j'ai fait le choix de me réorienter dans les métiers du numérique. J'ai fait le choix d'apprendre seule, grâce à l'aide d'OpenclassRooms, aujourd'hui j'ai obtenu un service civique, à la fin de celui-ci, je suis parvenue à obtenir un contrat d'un an et de créer un poste dans la structure où j'exerce.</p>
@@ -178,7 +178,7 @@
 						<i class="fas fa-plane"></i>
 					</div>
 				</div>
-			</aside>
+			</article>
 		</section>
 	</body>
 </html>
